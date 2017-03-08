@@ -14,10 +14,10 @@ public class TritemiumCipherService extends CipherService {
     }
 
 
-    protected String crypt (String encryptedText,Integer keyModifier) {
+    protected String crypt (String text,Integer keyModifier) {
         StringBuilder outputText = new StringBuilder();
         int i = 0;
-        for (Character letter : encryptedText.toCharArray()) {
+        for (Character letter : text.toCharArray()) {
             Integer key = tritemiusKeyCalculator.getOffset(i);
             Integer decryptedIndex = Math.floorMod((alphabet.indexOf(letter) + (key * keyModifier) + alphabetLength),alphabetLength);
             outputText.append(alphabet.charAt(decryptedIndex));

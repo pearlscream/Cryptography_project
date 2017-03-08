@@ -15,9 +15,9 @@ public class CaesarCipherService extends CipherService {
     }
 
 
-    protected String crypt (String encryptedText,Integer keyModifier) {
+    protected String crypt (String text,Integer keyModifier) {
         StringBuilder outputText = new StringBuilder();
-        for (Character letter : encryptedText.toCharArray()) {
+        for (Character letter : text.toCharArray()) {
             Long decryptedIndex = Math.floorMod((alphabet.indexOf(letter) + (key * keyModifier) + alphabetLength),alphabetLength);
             outputText.append(alphabet.charAt(decryptedIndex.intValue()));
         }

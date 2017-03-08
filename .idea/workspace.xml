@@ -62,8 +62,8 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+            <state relative-caret-position="223">
+              <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
       <file leaf-file-name="CipherService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/abstraction/CipherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <element signature="e#387#388#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
@@ -89,8 +89,8 @@
       <file leaf-file-name="TritemiumCipherService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/implementation/TritemiumCipherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="224">
+              <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +161,8 @@
       <file leaf-file-name="CaesarCipherService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/implementation/CaesarCipherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="176">
+              <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -207,12 +207,12 @@
         <option value="$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusLinearKeyCalculator.java" />
         <option value="$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusQuadraticKeyCalculator.java" />
         <option value="$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusWordKeyCalculator.java" />
+        <option value="$PROJECT_DIR$/src/sample/abstraction/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusKeyCalculator.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/abstraction/CipherService.java" />
         <option value="$PROJECT_DIR$/src/sample/implementation/TritemiumCipherService.java" />
         <option value="$PROJECT_DIR$/src/sample/implementation/CaesarCipherService.java" />
-        <option value="$PROJECT_DIR$/src/sample/abstraction/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/sample/abstraction/CipherService.java" />
-        <option value="$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusKeyCalculator.java" />
       </list>
     </option>
   </component>
@@ -277,6 +277,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tritemius_key_strategies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -809,12 +831,12 @@
       <workItem from="1488405814975" duration="151000" />
       <workItem from="1488831172060" duration="1105000" />
       <workItem from="1488988029222" duration="2106000" />
-      <workItem from="1489003139056" duration="9664000" />
+      <workItem from="1489003139056" duration="11353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28694000" />
+    <option name="totallyTimeSpent" value="30383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -835,7 +857,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22692889" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -895,12 +917,12 @@
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -975,12 +997,12 @@
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1047,12 +1069,12 @@
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1099,12 +1121,12 @@
         <state relative-caret-position="187">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1151,12 +1173,12 @@
         <state relative-caret-position="119">
           <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1204,12 +1226,12 @@
         <state relative-caret-position="196">
           <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1272,27 +1294,17 @@
         <state relative-caret-position="-188">
           <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <marker date="1489010523562" expanded="true" signature="5070:5119" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5142" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5159" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5175" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5192" ph="..." />
-            <marker date="1489010523562" expanded="true" signature="5070:5207" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5452" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5475" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5492" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5508" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5525" ph="..." />
+            <marker date="1489013761788" expanded="true" signature="5403:5540" ph="..." />
           </folding>
         </state>
       </provider>
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusWordKeyCalculator.java">
@@ -1327,34 +1339,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/abstraction/CipherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/tritemius_key_strategies/TritemiusKeyCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/implementation/TritemiumCipherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1366,10 +1355,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/abstraction/CipherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/implementation/TritemiumCipherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/implementation/CaesarCipherService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        <state relative-caret-position="176">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding />
         </state>
       </provider>

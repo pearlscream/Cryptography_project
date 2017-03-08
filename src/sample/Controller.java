@@ -94,6 +94,12 @@ public class Controller {
         return tritemiusKeyCalculator;
     }
 
+    @FXML
+    private void clearButton(ActionEvent event) {
+        textInput.setText("");
+        textInputTritemius.setText("");
+    }
+
     private void fillData() {
         try {
             errorText.setVisible(false);

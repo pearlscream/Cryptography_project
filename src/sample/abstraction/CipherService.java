@@ -15,5 +15,5 @@ public abstract class CipherService {
         return crypt(encryptedText,-1);
     }
 
-    protected abstract String crypt(String encryptedText,Integer keyModifier);
+    protected abstract String crypt(String text,Integer keyModifier);
 }
