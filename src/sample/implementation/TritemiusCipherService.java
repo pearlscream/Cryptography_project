@@ -6,10 +6,10 @@ import sample.tritemius_key_strategies.TritemiusKeyCalculator;
 /**
  * @author DBudko
  */
-public class TritemiumCipherService extends CipherService {
+public class TritemiusCipherService extends CipherService {
     private TritemiusKeyCalculator tritemiusKeyCalculator;
 
-    public TritemiumCipherService(TritemiusKeyCalculator tritemiusKeyCalculator) {
+    public TritemiusCipherService(TritemiusKeyCalculator tritemiusKeyCalculator) {
         this.tritemiusKeyCalculator = tritemiusKeyCalculator;
     }
 

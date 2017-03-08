@@ -11,7 +11,7 @@ import sample.abstraction.CipherService;
 import sample.abstraction.DataSource;
 import sample.implementation.CaesarCipherService;
 import sample.implementation.FileDataSource;
-import sample.implementation.TritemiumCipherService;
+import sample.implementation.TritemiusCipherService;
 import sample.tritemius_key_strategies.TritemiusKeyCalculator;
 import sample.tritemius_key_strategies.TritemiusLinearKeyCalculator;
 import sample.tritemius_key_strategies.TritemiusQuadraticKeyCalculator;
@@ -72,7 +72,7 @@ public class Controller {
     private void tritemiusEncrypt(ActionEvent event) {
         RadioButton selectedToggle = (RadioButton)(cipherMethod.getSelectedToggle());
         TritemiusKeyCalculator tritemiusKeyCalculator = getKeyCalculationStrategy(selectedToggle.getId());
-        CipherService cipherService = new TritemiumCipherService(tritemiusKeyCalculator);
+        CipherService cipherService = new TritemiusCipherService(tritemiusKeyCalculator);
         textInputTritemius.setText(cipherService.encryptText(textInputTritemius.getText()));
     }
 
@@ -80,7 +80,7 @@ public class Controller {
     private void tritemuisDecrypt(ActionEvent event) {
         RadioButton selectedToggle = (RadioButton)(cipherMethod.getSelectedToggle());
         TritemiusKeyCalculator tritemiusKeyCalculator = getKeyCalculationStrategy(selectedToggle.getId());
-        CipherService cipherService = new TritemiumCipherService(tritemiusKeyCalculator);
+        CipherService cipherService = new TritemiusCipherService(tritemiusKeyCalculator);
         textInputTritemius.setText(cipherService.decryptText(textInputTritemius.getText()));
     }
 
