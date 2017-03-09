@@ -1,7 +1,7 @@
 package sample.tritemius_key_strategies;
 
 /**
- * Created by Dima on 09.03.2017.
+ * @author DBudko
  */
 public class TritemiusQuadraticKeyCalculator implements TritemiusKeyCalculator {
     private Long a;

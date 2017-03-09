@@ -3,7 +3,7 @@ package sample.tritemius_key_strategies;
 import sample.abstraction.CipherService;
 
 /**
- * Created by Dima on 09.03.2017.
+ * @author DBudko
  */
 public class TritemiusWordKeyCalculator implements TritemiusKeyCalculator {
     private String keyWord;

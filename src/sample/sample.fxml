@@ -10,40 +10,40 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <TabPane fx:id="tabs" prefHeight="276.0" prefWidth="469.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="tabs" prefHeight="276.0" prefWidth="535.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="Метод Цезаря">
             <content>
-              <AnchorPane maxHeight="253.0" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="218.0" prefWidth="469.0">
+              <AnchorPane maxHeight="253.0" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="243.0" prefWidth="545.0">
                      <children>
-                        <TextField id="inputText" fx:id="textInput" layoutX="51.0" layoutY="27.0" prefHeight="25.0" prefWidth="396.0" />
-                        <TextField id="inputKey" fx:id="keyInput" layoutX="51.0" layoutY="68.0" prefHeight="25.0" prefWidth="162.0" />
-                        <Button id="encryptButton" layoutX="235.0" layoutY="63.0" mnemonicParsing="false" onAction="#encryptButtonAction" prefHeight="38.0" prefWidth="100.0" text="Зашифрувати" />
-                        <Button id="decryptButton" layoutX="343.0" layoutY="63.0" mnemonicParsing="false" onAction="#decryptButtonAction" prefHeight="38.0" prefWidth="104.0" text="Розшифрувати" />
+                        <TextField id="inputText" fx:id="textInput" layoutX="68.0" layoutY="26.0" prefHeight="26.0" prefWidth="451.0" />
+                        <TextField id="inputKey" fx:id="keyInput" layoutX="68.0" layoutY="69.0" prefHeight="26.0" prefWidth="185.0" />
+                        <Button id="encryptButton" layoutX="265.0" layoutY="63.0" mnemonicParsing="false" onAction="#encryptButtonAction" prefHeight="38.0" prefWidth="120.0" text="Зашифрувати" />
+                        <Button id="decryptButton" layoutX="391.0" layoutY="63.0" mnemonicParsing="false" onAction="#decryptButtonAction" prefHeight="38.0" prefWidth="130.0" text="Розшифрувати" />
                         <Label layoutX="14.0" layoutY="31.0" text="Текст" />
                         <Label layoutX="14.0" layoutY="72.0" text="Ключ" />
-                        <Button id="readFromFile" layoutX="44.0" layoutY="138.0" mnemonicParsing="false" onAction="#fileUpload" prefHeight="38.0" prefWidth="149.0" text="Зчитати з файлу" />
-                        <Button id="writeToFile" layoutX="213.0" layoutY="138.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="38.0" prefWidth="122.0" text="Записати в файл" />
+                        <Button id="readFromFile" layoutX="57.0" layoutY="138.0" mnemonicParsing="false" onAction="#fileUpload" prefHeight="38.0" prefWidth="149.0" text="Зчитати з файлу" />
+                        <Button id="writeToFile" layoutX="222.0" layoutY="139.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="38.0" prefWidth="144.0" text="Записати в файл" />
                         <Text fx:id="errorText" fill="RED" layoutX="52.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" visible="false" wrappingWidth="159.13671875" />
-                        <Button layoutX="343.0" layoutY="138.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="37.0" prefWidth="102.0" text="Очистити" />
+                        <Button layoutX="376.0" layoutY="140.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="37.0" prefWidth="151.0" text="Очистити" />
                      </children></AnchorPane>
             </content>
           </Tab>
           <Tab text="Метод Тритеміуса">
             <content>
-              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="234.0" prefWidth="469.0">
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="243.0" prefWidth="522.0">
                      <children>
-                        <TextField fx:id="textInputTritemius" layoutX="57.0" layoutY="14.0" prefHeight="25.0" prefWidth="386.0" />
+                        <TextField fx:id="textInputTritemius" layoutX="57.0" layoutY="14.0" prefHeight="26.0" prefWidth="470.0" />
                         <Label layoutX="14.0" layoutY="18.0" prefHeight="17.0" prefWidth="43.0" text="Текст" />
-                        <TextField fx:id="wordKeyInput" layoutX="115.0" layoutY="47.0" prefHeight="25.0" prefWidth="326.0" />
-                        <TextField fx:id="linearFirst" layoutX="173.0" layoutY="82.0" prefHeight="25.0" prefWidth="41.0" />
-                        <TextField fx:id="quadraticFirst" layoutX="220.0" layoutY="120.0" prefHeight="25.0" prefWidth="60.0" />
-                        <TextField fx:id="quadraticSecond" layoutX="295.0" layoutY="120.0" prefHeight="25.0" prefWidth="55.0" />
-                        <TextField fx:id="linearSecond" layoutX="235.0" layoutY="82.0" prefHeight="25.0" prefWidth="41.0" />
-                        <TextField fx:id="quadraticThird" layoutX="369.0" layoutY="120.0" prefHeight="25.0" prefWidth="55.0" />
-                        <RadioButton fx:id="keyLinear" layoutX="15.0" layoutY="86.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="162.0" text="Лінійне рівняння at+b">
+                        <TextField fx:id="wordKeyInput" layoutX="147.0" layoutY="47.0" prefHeight="26.0" prefWidth="378.0" />
+                        <TextField fx:id="linearFirst" layoutX="386.0" layoutY="82.0" prefHeight="26.0" prefWidth="57.0" />
+                        <TextField fx:id="quadraticFirst" layoutX="312.0" layoutY="120.0" prefHeight="25.0" prefWidth="60.0" />
+                        <TextField fx:id="quadraticSecond" layoutX="388.0" layoutY="120.0" prefHeight="25.0" prefWidth="55.0" />
+                        <TextField fx:id="linearSecond" layoutX="466.0" layoutY="82.0" prefHeight="26.0" prefWidth="56.0" />
+                        <TextField fx:id="quadraticThird" layoutX="466.0" layoutY="120.0" prefHeight="25.0" prefWidth="55.0" />
+                        <RadioButton fx:id="keyLinear" layoutX="15.0" layoutY="86.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="196.0" text="Лінійне рівняння at+b">
                            <toggleGroup>
                               <ToggleGroup fx:id="cipherMethod" />
                            </toggleGroup>
@@ -51,10 +51,10 @@
                         <RadioButton fx:id="keyQuadratic" layoutX="15.0" layoutY="124.0" mnemonicParsing="false" text="Квадратне рівняння at^2 + bt+c" toggleGroup="$cipherMethod" />
                         <RadioButton fx:id="keyWord" layoutX="15.0" layoutY="51.0" mnemonicParsing="false" selected="true" text="Ключ строка" toggleGroup="$cipherMethod" />
                         <Button layoutX="7.0" layoutY="150.0" mnemonicParsing="false" onAction="#fileUpload" prefHeight="25.0" prefWidth="107.0" text="Зчитати з файлу" />
-                        <Button layoutX="118.0" layoutY="150.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="25.0" prefWidth="119.0" text="Записати в файл" />
-                        <Button layoutX="249.0" layoutY="150.0" mnemonicParsing="false" onAction="#tritemiusEncrypt" prefHeight="25.0" prefWidth="93.0" text="Зашифрувати" />
-                        <Button layoutX="350.0" layoutY="150.0" mnemonicParsing="false" onAction="#tritemuisDecrypt" prefHeight="25.0" prefWidth="102.0" text="Розшифрувати" />
-                        <Button layoutX="179.0" layoutY="193.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="25.0" prefWidth="111.0" text="Очистити" />
+                        <Button layoutX="118.0" layoutY="150.0" mnemonicParsing="false" onAction="#saveToFile" prefHeight="26.0" prefWidth="121.0" text="Записати в файл" />
+                        <Button layoutX="248.0" layoutY="150.0" mnemonicParsing="false" onAction="#tritemiusEncrypt" prefHeight="26.0" prefWidth="123.0" text="Зашифрувати" />
+                        <Button layoutX="387.0" layoutY="150.0" mnemonicParsing="false" onAction="#tritemuisDecrypt" prefHeight="26.0" prefWidth="134.0" text="Розшифрувати" />
+                        <Button layoutX="210.0" layoutY="193.0" mnemonicParsing="false" onAction="#clearButton" prefHeight="25.0" prefWidth="111.0" text="Очистити" />
                      </children></AnchorPane>
             </content>
           </Tab>
